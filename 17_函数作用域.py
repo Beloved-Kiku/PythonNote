@@ -16,3 +16,4 @@ def k():
     return g()
 c =k()
 print(c)
+#函数闭包问题
