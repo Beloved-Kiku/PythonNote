@@ -1,4 +1,7 @@
 #使用柯里化定一个修改__name__和__doc__的装饰器
+from curses import wrapper
+
+
 def ChangePrototype(add):
     def _copy(wrapper):
         wrapper.__name__ = add.__name__
